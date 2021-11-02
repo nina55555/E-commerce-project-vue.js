@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    background-color: rgb(184, 179, 179);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.bloc-left{
+    background-image: url(../img/marble-wall.png);
+    width: 25%;
+    height: 100%;
+
+
+}
+
+.bloc-right{
+    
+    background-image: url(../img/marble-wall.png);
+    width: 25%;
+    height: 100%;
+
+}
+
+.centered{
+    background-color: rgb(66, 50, 50);
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.center-box{
+    h1{
+        color: rgb(116, 90, 69);
+        font-size: 18px;
+
+    }
+    p{
+        //color: rgb(128, 126, 126);        
+        color: rgb(163, 129, 117);
+        font-size: 13px;
+
+
+    }
+    background-color: rgb(34, 33, 33);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.collection1{
+    background-color: rgb(238, 215, 215);
+    border-radius: 1px solid indigo;
+    border-radius: 2px;
+    width: 75px;
+    font-size: 15px;
+    color: indigo;
+    margin-bottom: 25px;
+    text-decoration: none;
+    text-align:center;
+}
+
+.sign{
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+
+}
