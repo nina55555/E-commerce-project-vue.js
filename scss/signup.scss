@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.container{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    
+}
