@@ -1,25 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/signup.css">
-    <title>Sign up</title>
+    <!--importer ici fichier bootstrap-->
+    <!--importer ici cdn vue.js-->
+    <link rel="stylesheet" href="../scss/signup.css">
+    <title>Inscription</title>
 </head>
 <body>
     <div class="container">
-        <div class="signup">
+        <div class="signup app">
             <h1>Inscription</h1>
-            <form action="">
+            <form action="signIn.html">
+                <!--utiliser vue js pour creer les inputs-->
                 <label for="name">
-                    <input type="text" id="name" name="name" placeholder="Veuillez entrer votre nom">
+                    <input type="text" id="name" name="name"  v-model(nom)>
                 </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name" >
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="name">
+                    <input type="text" id="name" name="name">
+                </label>
+                <input type="submit" value="ok">
             </form>
         </div>
     </div>
+
+
+    <!--partie vue js
+
+        const vue = new vue {{
+            el: 
+            nom: Entrez votre nom
+            prenom: Entrez votre prénom
+            pseudo: Entrez votre pseudo
+            mail: Entrez votre adresse mail
+            confirmation mail: Retaper votre mail
+            mot de passe: Entrez votre mot de passe
+            adresse: Entrez votre adresse postale
+            ville: Entrez votre ville
+            code postale: Entrez votre code postale
+            pays: Entrez votre pays
+            }
+            methods {function(test)
+            console.log(test)
+            }
+        }
     
-    
+    -->
+
 </body>
 </html>
